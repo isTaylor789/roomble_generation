@@ -1,0 +1,33 @@
+fastapi
+uvicorn[standard]
+
+# Base de Datos (Async Postgres)
+sqlalchemy
+asyncpg
+alembic
+
+# Seguridad (Actualizado y Seguro)
+bcrypt
+PyJWT[crypto]
+
+# Validación y DTOs
+pydantic
+pydantic[email]
+
+# Clientes y Comunicación
+httpx
+redis
+sse-starlette
+openai
+
+# Almacenamiento (SeaweedFS via S3 API)
+boto3
+python-multipart
+
+# Utils & Observabilidad locales
+python-dotenv
+loguru
+
+# Testing
+pytest
+pytest-asyncio
